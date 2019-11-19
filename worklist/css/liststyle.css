@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body {background:none;background-color:#f5f5f5}
+a:link		{text-decoration:underline;color:#777}
+a:visited	{text-decoration:underline;color:#777}
+a:hover	{text-decoration:underline;color: #e2a000}
+a:active	{text-decoration:underline;color: #e2a000}
+
+h1{font-size: 30px; text-align: center;padding: 30px;}
+.list_wrap {margin:20px auto;width:1000px;}
+.list_wrap h2 {text-align:center;padding:20px 0;background-color: #ecb200;color:#fff ;font-family:'맑은 고딕','Malgun Gothic'; font-size: 18px;}
+.list_wrap ul {}
+.list_wrap ul li{width:25%;height:35px;font-size: 13px;line-height: 35px;float: left;box-sizing:border-box;color:#336699;text-align: center;font-family:'맑은 고딕','Malgun Gothic'}
+.list_wrap ul li a{color:#336699}
+
+.list_style {border-top:1px solid #cdcdcd}
+.list_style th:first-child {border-left:1px solid #cdcdcd}
+.list_style th {border-right:1px solid #cdcdcd;border-bottom:1px solid #cdcdcd;padding:7px;background-color:#dcdcdc;font-weight:bold;color:#333 ;font-size: 13px;}
+.list_style td {border-right:1px solid #cdcdcd;border-bottom:1px solid #cdcdcd;padding:7px;border-top:none;font-family:'verdana';background-color:#fff;font-size: 13px;}
+.list_style td.gray {background-color:#e4e4e6;font-weight:bold;text-align:center;border-left:1px solid #ddd}
+.list_style td.desi {text-align: center;}
+.list_style td em {color:#ff0000}
+.list_style td em.modify {color:#e2a000}
+.list_style td.day {font-size:12px;text-align:center}
+
+.blue {color:#2a8ad0;font-weight:bold;font-size:11px;letter-spacing:-1px;text-align:center}
+.add_list {margin-top:30px;padding-bottom:10px}
+.add_list p.top {font-size:14px;font-weight:bold;margin-bottom:10px;color:#fff;padding:7px 10px 5px 10px;background-color:#16bc98;font-family:'맑은 고딕','Malgun Gothic'}
+.add_list p.top.red{background-color:#ec1f60}
+.add_list ul li {margin-bottom:10px;border-top:1px dashed #ccc;padding-top:10px;font-family:'verdana'}
+.add_list ul li:first-child {border-top:none;padding-top:0}
+.add_list ul li strong {color: #e2a000;font-size:12px;display:block;margin-bottom:5px;cursor:pointer;background:url('./blt.gif') no-repeat 100% 0}
+.add_list ul li strong.on {color:#00599d;background-position:100% -19px}
+.add_list ul li span {font-size:12px;color:#333;color:#ec1f60}
+.add_list ul li dl dt {font-weight:bold;color:#000;margin:8px 0 3px 0}
+.add_list ul li dl dd {line-height:16px}
+.add_list ul li dl dd em {font-weight:bold}
+.add_list ul li dl dd em span {color:#ec1f60}
+.add_list ul li div {overflow:hidden;display:none}
+.add_list ul li div ul li {float:left;margin-right:70px;border-top:none;padding:0}
+.box {border:1px solid #ccc;padding:15px;line-height:18px;font-size:12px;margin:-5px 0 10px 0;background-color:#f7f7f7}
+.box strong {color:#ec1f60}
+p{
+	padding:60px 0;text-align:center; font-size: 15px; 
+}

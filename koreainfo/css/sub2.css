@@ -1,0 +1,48 @@
+.sub2-work .sub2-wrap{width: 94%; margin-left: 3%; }
+
+.sub2-work .work{width: 35%;float:left;background: url(../images/sub/sub2-bg.png) 50% 100% no-repeat;height: 472px;background-size:cover;border-bottom: 1px solid #dcdcdc;}
+.sub2-work .sub2-wrap h3{font-size: 20px; margin-bottom: 10px;margin-top: 30px;}
+.sub2-work .work em{ display: block;width: 90%; margin: auto;}
+
+.sub2-work .work-detail{width: 40%;float:left; margin-left: 3%}
+.sub2-work .work-detail dl{}
+.sub2-work .work-detail dt{border-bottom: 1px solid #dcdcdc;height: 35px;line-height: 35px;cursor:pointer;font-size: 15px;background: #413a6b;color:#fff; padding-left: 10px;overflow:hidden}
+.sub2-work .work-detail dd{background: #f1f1f1;height: 150px;padding-top: 20px;padding-left: 10px;box-sizing:border-box;
+							display: none; color:#333}
+.sub2-work .work-detail dd:nth-of-type(1){display: block;}
+.sub2-work .work-detail dd:nth-of-type(7){padding-top: 0;}
+
+.sub2-work .work-year{width: 100%; float:left} 
+.sub2-work .work-year ul{}
+.sub2-work .work-year ul li{float:left; width: 23.5%;height: 200px;margin-right: 2%;margin-bottom: 2%;background: #eff1f5;box-sizing:border-box;padding: 5px;border-radius: 15px;}
+.sub2-work .work-year ul li:nth-child(4n+4){margin-right: 0;}
+.sub2-work .work-year ul li strong{display: block;font-size: 18px; color:#140958; margin: 14px 0;text-align: center;border-bottom: 1px dotted #7f799e;padding-bottom: 10px;}
+.sub2-work .work-year ul li em{display: block;float:left;margin-bottom: 8px;line-height: 1.5; font-size: 13px;}
+.sub2-work .work-year ul li em span{font-size: 12px;display: block; width: 30px; height: 20px;background:#96bae3;border-radius: 6px;color:#fff;text-align: center;line-height: 20px;
+									float:left; margin-right: 8px;padding-bottom: 3px;}
+
+
+@media screen and (max-width: 1200px){
+.sub2-work .work{width: 45%;}
+.sub2-work .work-detail{width: 52%;}
+.sub2-work .work-year ul li{width: 32%;}
+.sub2-work .work-year ul li:nth-child(4n+4){margin-right: 2%;}
+.sub2-work .work-year ul li:nth-child(3n+3){margin-right: 0;}
+}
+
+@media screen and (max-width: 800px){
+.sub2-work .work{width: 40%;}
+.sub2-work .work-detail{width: 57%;}
+.sub2-work .work-year ul li{width: 49%; margin-right: 0;}
+.sub2-work .work-year ul li:nth-child(4n+4){margin-right: 0;}
+.sub2-work .work-year ul li:nth-child(2n+1){margin-right: 2%;}
+}
+
+@media screen and (max-width: 400px){
+.sub2-work .work{width: 100%;}
+.sub2-work .work-detail{width: 100%;margin: 0;}
+.sub2-work .work-year ul li{width: 100%;margin-right: 0;}
+
+}
+
+

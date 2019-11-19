@@ -1,0 +1,96 @@
+
+.inner-wrap1{width: 960px; margin: auto ; position:relative}
+.inner-wrap2{width: 100%; position:relative}
+
+.main-contents{height: 890px;box-sizing:border-box}
+
+#container .more{text-indent:10px;width:  15%; height: 30px; background: #c40452; color:#fff; display: block;line-height: 30px; }
+#container .more span{float:right; margin-right: 10px;}
+#container .bg{width: 100%;height: 1780px;background-image:url(../images/bg_main.png);background-position: 50% 40%;background-repeat: no-repeat; background-size:110%;
+							position:absolute;top:98px}
+
+#experience{background: #ebebeb;padding-top: 98px;}
+#experience h2{padding-top: 100px; }
+#experience h2 img{width: 513px; margin: auto; display: block;}
+#experience p{text-align: center; padding: 15px 0; width: 100%;}
+#experience .more{margin: auto;}
+#experience ul{width: 100%; margin-top: 150px;}
+#experience ul li{float:left; width: 30%; box-sizing:border-box;}
+#experience ul li strong{font-size: 33px;display: block; text-align: center;color:#fff}
+#experience ul li em{text-align: center;display: block; margin: 10px 0; line-height: 1.5; font-size: 13px;color:#fff}
+#experience ul .left{margin-right: 40%; }
+#experience ul .left strong{color:#222}
+#experience ul .left em{color:#222}
+#experience .main1-img{width: 58%; position:absolute; left: 17%; top: 370px}
+
+#product{background: #ebeae6; height: 100%;}
+#product .product-img{width: 50%;float:left}
+#product .product-img .main2-img{width: 100%}
+#product h2{float:left; width: 50%;padding-top: 50px;}
+#product h2 img{float:left; width: 70%;}
+#product p{padding: 15px 0; font-size: 13px;; width: 50%;float:right; box-sizing:border-box}
+#product .more{float:left; }
+#product ul {width: 93%; clear: both;margin-left: 3.5%; padding-top: 50px;}
+#product ul li{width: 33.33%;float:left;  }
+#product ul li img{display: block;width: 140px;margin: auto;}
+#product ul li .round1{width: 160px;}
+#product ul li .round2{width: 150px;}
+#product ul li strong{text-align: center;display: block;font-size: 22px;font-weight: bold;margin:15px 0;}
+#product ul li em{text-align: center;display: block;line-height: 1.5;font-size: 13px;}
+
+#solution{padding-top: 98px;background: #ebeae6}
+#solution h2{text-align: center;}
+#solution p{text-align: center; margin: 15px 0;}
+#solution .more{margin: auto;}
+#solution .main3-img{width: 364px;position:absolute; left:50%; margin-left: -220px; margin-top: 50px;}
+#solution ul{width: 100%; margin-top: 210px;}
+#solution ul li{width: 33.33%;height: 400px;float:left; background-repeat:no-repeat; background-size:cover;}
+#solution ul .con3_1{background-image:url(../images/main_03_opt_01.jpg);}
+#solution ul .con3_2{background-image:url(../images/main_03_opt_02.jpg);}
+#solution ul .con3_3{background-image:url(../images/main_03_opt_03.jpg);}
+#solution ul li img{width: 140px;margin: auto;display: block; padding-top:70px; box-sizing:border-box}
+#solution ul li strong{text-align: center;display: block;font-size: 22px;font-weight: bold;margin:15px 0;color:#fff}
+#solution ul li em{text-align: center;display: block;line-height: 1.5;font-size: 13px;color:#fff}
+
+@media screen and (max-width: 960px){
+.inner-wrap1{width: 100%;}
+#container{padding-top: 0px;}
+#container .more{width: 20%; }
+#container .bg{background-size:cover;}
+#experience{padding-top: 60px;}
+#experience ul{display: none;}
+#experience h2 {padding-top:80px;}
+#experience h2 img{width: 70%; }
+#experience .main1-img{width: 80%;  left: 5%; }
+#product .product-img{width: 100%;}
+#product .product-img .main2-img{width: 76%; margin-left: 12%;}
+#product h2{width: 100%;text-align: center;}
+#product h2 img{margin: auto; display: block;}
+#product h2 .interactive{width: 70%;margin-left: 15%;}
+#product h2 .product{width: 50%;margin-left: 25%;}
+#product p{text-align: center;padding-top: 20px; width: 70%;  margin-right: 15%;clear: both;}
+#product .more{clear: both;  margin-left: 40%;}
+#product ul{width: 70%; margin-left: 15%;}
+#product ul li{width: 100%; border-bottom: 1px solid #cdcdcd; margin-bottom: 20px;padding-bottom: 20px;}
+#product ul li img{float:right}
+#product ul li strong{	text-align:left }
+#product ul li em{	text-align:left}
+#solution{padding-top: 60px; height: 770px;}
+#solution ul li{height: 300px;}
+#solution ul li em{display: none;}
+}
+
+@media screen and (max-width: 640px){
+#product {margin-top: -100px;}
+#product ul{width: 100%;margin-left: 0;}
+#product ul li{margin: 15px 0;padding: 0;border:none; width: 70%; margin-left: 15%;}
+#product ul li img{float:none}
+#product ul li strong{	text-align: center; }
+#product ul li em{	text-align: center;}
+#experience .main1-img{width: 80% ;left: 5%; }
+#solution ul li img{width: 80%;}
+}
+
+
+
+

@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>서울대학교_SNU_Theme02</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../resources/css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="../resources/css/style02.css" type="text/css"/>
+    <link rel="stylesheet" href="../resources/css/jquery-ui.css" type="text/css"/>
+    <script type="text/javascript" src="../resources/scripts/jquery.js"> </script>
+    <script type="text/javascript" src="../resources/scripts/jquery-ui.min.js"> </script>
+    <script src="../resources/scripts/jquery.bxslider.js"></script>
+    <script src="../resources/scripts/custom.js"></script>
+
+    <style>
+        .blockgroup{background:url("../resources/images/bg01.jpg") 50% 50% no-repeat; background-size:cover;}
+        .blockgroup .group_color{width:100%; height: 100%; position:absolute; left:0; top:0; background-color:rgba(38,125,213,0.9);}
+    </style>
+</head>
+
+
+<body class="pc mobile">
+
+<!--최상단 header, content, footer wrap-->
+<div class="total-wrap">
+
+    <!--header-->
+    <header>
+        <div class="header_topmenu">
+            <div class="inner">
+                <img class="lg03" src="../resources/images/top-menu.png" alt="SEOUL NATIONAL UNIVERSITY">
+                <ul>
+                    <li class="login" ><a href="javascript:;">Login</a></li>
+                    <li class="en"><a href="javascript:;" >English</a></li>
+                    <li class="sitemap"><a href="javascript:;" >Sitemap</a></li>
+                </ul>
+
+
+                <div class="search_box">
+                    <a href="javascript:;" class="search_btn"></a>
+                    <div class="hidden_area">
+                        <form action="" method="post" name="" target="_blank" id="wnsearch">
+                                <label for="search_query" style="display:none;">검색어</label>
+                                <input type="text" name="query" id="search_query" placeholder="검색어 입력 ">
+                            <button name="" class="form_submit"></button>
+                        </form>
+                        <a class="btn_close" href="javascript:;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_logo">
+            <div class="inner">
+                <a href="javascript:;" title="서울대학교 ">
+                    <div class="logo-wrap">
+                        <img src="../resources/images/theme2_h1_logo.png" alt="서울대학교 로고">
+                    </div>
+                    <p>
+                        <strong>서울대학교 정보화본부</strong>
+                        <em>Information Systems & Technology</em>
+                    </p>
+                </a>
+              </div>
+        </div>
+
+
+        <div class="header_gnb">
+            <div class="inner">
+                <a href="javascript:;" class="mobileMenu"></a>
+                <ul class="menu">
+                    <li class="first expanded d0">
+                        <dl>
+                            <dt>
+                                <a href="javascript:;" >새내기 길잡이</a>
+                            </dt>
+                            <dd>
+                                <ul class="d1">
+                                    <li class="first leaf"><a href="javascript:;" title="학장인사말">학장인사말</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="교육이념">교육이념</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="연혁">연혁</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="역대학장">역대학장</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="현황">현황</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="홍보자료">홍보자료</a></li>
+                                    <li class="expanded"><a href="javascript:;" title="조직도">조직도</a>
+                                        <ul class="d2">
+                                            <li class="first leaf"><a href="javascript:;" title="학장단">학장단</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="교수 및 학과사무실">교수 및 학과사무실</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="직원">직원</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="연구소 및 관련기관">연구소 및 관련기관</a></li>
+                                            <li class="last leaf"><a href="javascript:;" title="학생회" target="_blank">학생회</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="expanded"><a href="javascript:;" title="캠퍼스 안내">캠퍼스 안내</a>
+                                        <ul class="d2">
+                                            <li class="first last leaf"><a href="javascript:;" title="가이드 북">가이드 북</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="last leaf"><a href="javascript:;" title="찾아오시는길">찾아오시는길</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="expanded d0">
+                        <dl>
+                            <dt>
+                                <a href="javascript:;" >정보화 서비스</a>
+                            </dt>
+                            <dd>
+                                <ul class="d1">
+                                    <li class="first leaf"><a href="javascript:;" title="입학">입학</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="장학금">장학금</a></li>
+                                    <li class="expanded"><a href="javascript:;" title="학사">학사</a>
+                                        <ul class="d2">
+                                            <li class="first leaf"><a href="javascript:;" title="학사안내">학사안내</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="학사일정">학사일정</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="학부과정">학부과정</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="대학원과정">대학원과정</a></li>
+                                            <li class="last expanded"><a href="http://edu.snu.ac.kr/educational_service_activities" title="교직과정">교직과정</a>
+                                                <ul class="d3">
+                                                    <li class="first leaf"><a href="javascript:;" title="교육봉사">교육봉사</a></li>
+                                                    <li class="last leaf"><a href="javascript:;" title="교육실습">교육실습</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="last leaf"><a href="javascript:;" title="대학생활">대학생활</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="expanded d0">
+                        <dl>
+                            <dt>
+                                <a href="javascript:;">정보보호</a>
+                            </dt>
+                            <dd>
+                                <ul class="d1">
+                                    <li class="first leaf"><a href="javascript:;" title="교육학과">교육학과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="국어교육과">국어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="영어교육과">영어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="독어교육과">독어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="불어교육과">불어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="사회교육과">사회교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="역사교육과">역사교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="지리교육과">지리교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="윤리교육과">윤리교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="수학교육과">수학교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="물리교육과">물리교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="화학교육과">화학교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="생물교육과">생물교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="지구과학교육과">지구과학교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="체육교육과">체육교육과</a></li>
+                                    <li class="last leaf"><a href="javascript:;" title="대학원 협동과정">대학원 협동과정</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="first expanded d0">
+                        <dl>
+                            <dt>
+                                <a href="javascript:;" >모바일</a>
+                            </dt>
+                            <dd>
+                                <ul class="d1">
+                                    <li class="first leaf"><a href="javascript:;" title="학장인사말">학장인사말</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="교육이념">교육이념</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="연혁">연혁</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="역대학장">역대학장</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="현황">현황</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="홍보자료">홍보자료</a></li>
+                                    <li class="expanded"><a href="javascript:;" title="조직도">조직도</a>
+                                        <ul class="d2">
+                                            <li class="first leaf"><a href="javascript:;" title="학장단">학장단</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="교수 및 학과사무실">교수 및 학과사무실</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="직원">직원</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="연구소 및 관련기관">연구소 및 관련기관</a></li>
+                                            <li class="last leaf"><a href="javascript:;" title="학생회" target="_blank">학생회</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="expanded"><a href="javascript:;" title="캠퍼스 안내">캠퍼스 안내</a>
+                                        <ul class="d2">
+                                            <li class="first last leaf"><a href="javascript:;" title="가이드 북">가이드 북</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="last leaf"><a href="javascript:;" title="찾아오시는길">찾아오시는길</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="expanded d0">
+                        <dl>
+                            <dt>
+                                <a href="javascript:;" >정보화본부소개</a>
+                            </dt>
+                            <dd>
+                                <ul class="d1">
+                                    <li class="first leaf"><a href="javascript:;" title="입학">입학</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="장학금">장학금</a></li>
+                                    <li class="expanded"><a href="javascript:;" title="학사">학사</a>
+                                        <ul class="d2">
+                                            <li class="first leaf"><a href="javascript:;" title="학사안내">학사안내</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="학사일정">학사일정</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="학부과정">학부과정</a></li>
+                                            <li class="leaf"><a href="javascript:;" title="대학원과정">대학원과정</a></li>
+                                            <li class="last expanded"><a href="http://edu.snu.ac.kr/educational_service_activities" title="교직과정">교직과정</a>
+                                                <ul class="d3">
+                                                    <li class="first leaf"><a href="javascript:;" title="교육봉사">교육봉사</a></li>
+                                                    <li class="last leaf"><a href="javascript:;" title="교육실습">교육실습</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="last leaf"><a href="javascript:;" title="대학생활">대학생활</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="expanded d0">
+                        <dl>
+                            <dt>
+                                <a href="javascript:;" >회의실 예약</a>
+                            </dt>
+                            <dd>
+                                <ul class="d1">
+                                    <li class="first leaf"><a href="javascript:;" title="교육학과">교육학과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="국어교육과">국어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="영어교육과">영어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="독어교육과">독어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="불어교육과">불어교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="사회교육과">사회교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="역사교육과">역사교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="지리교육과">지리교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="윤리교육과">윤리교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="수학교육과">수학교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="물리교육과">물리교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="화학교육과">화학교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="생물교육과">생물교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="지구과학교육과">지구과학교육과</a></li>
+                                    <li class="leaf"><a href="javascript:;" title="체육교육과">체육교육과</a></li>
+                                    <li class="last leaf"><a href="javascript:;" title="대학원 협동과정">대학원 협동과정</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </header>
+    <!--//////////////////header-->
+
+
+
+
+    <!--main-visual-->
+    <div id="banner-content">
+        <div id="block-slideblock-1" class="slideblock-content wdg_main_banner_c type03">
+            <div class="bx-wrapper">
+                <!--<div class="bx-viewport" >-->
+                <ul class="slide" >
+                    <li class="data-item noText bx-clone" >
+                        <div class="img-wrap">
+                            <img src="../resources/images/visual-img01.jpg" alt="">
+                        </div>
+                        <div class="inner"  >
+                            <h3>서울대학교 정보화본부</h3>
+                            <p>Seoul National University Information Systems & Technology</p>
+                            <div class="btn-wrap">
+                                <a href="javascript:;" class="type01">정보화본부소개</a>
+                                <a href="javascript:;" class="type02">정보화서비스</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="data-item noText bx-clone" >
+                        <div class="img-wrap">
+                            <img src="../resources/images/visual-img02.jpg" alt="">
+                        </div>
+                        <div class="inner" >
+                            <h3>서울대학교 정보화본부</h3>
+                            <p>Seoul National University Information Systems & Technology</p>
+                            <div class="btn-wrap">
+                                <a href="javascript:;" class="type01">정보화본부소개11</a>
+                                <a href="javascript:;" class="type02">정보화서비스22</a>
+                            </div>
+                        </div>
+                    </li>
+                 </ul>
+                <!--</div>-->
+            </div>
+        </div> <!-- /.block -->
+
+    </div>
+    <!--////////////main-visual-->
+
+
+    <!--wdg_latest_61_a,b,c 영역 -->
+    <div class="blockgroup">
+        <div class="group_color"></div>
+        <div class="group_inner">
+        <div  class="stackr-board-widget-content widget_item wdg_latest_61_6a type01 board61" >
+            <div class="widget_body widgetTitle">
+                <h2>front6astyle1</h2>
+                <div class="region widgetContainer inner">
+                    <div class="btn-wrap">
+                        <a href="javascript:;" class="btn-detail type01">자세히보기</a>
+                    </div>
+                    <ul class="text_61">
+                        <li>
+                            <a href="javascript:;" class="con-wrap">
+                                <div class="con-tit">
+                                    <span class="date">Jan <span class="num">19</span> </span>
+                                    <p>일곱번째 컨텐츠1</p>
+                                </div>
+                                <div class="con-txt">
+                                    <p>
+                                        고양고양
+
+                                        멍멍멍멍멍
+                                    </p>
+                                </div>
+                            </a>
+                            <div class="btn-wrap">
+                                <a href="javascript:;" class="btn-detail type02">자세히보기</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="con-wrap">
+                                <div class="con-tit">
+                                    <span class="date">Jan <span class="num">19</span> </span>
+                                    <p>여섯번째 컨텐츠1</p>
+                                </div>
+                                <div class="con-txt">
+                                    <p>
+                                        입니다~!!!!!!
+                                    </p>
+                                </div>
+                            </a>
+                            <div class="btn-wrap">
+                                <a href="javascript:;" class="btn-detail type02">자세히보기</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="con-wrap">
+                                <div class="con-tit">
+                                    <span class="date">Jan <span class="num">19</span> </span>
+                                    <p>다섯번째 컨텐츠1</p>
+                                </div>
+                                <div class="con-txt">
+                                    <p>
+                                        1234567890
+
+                                        1234567890
+
+                                        1234567890
+                                    </p>
+                                </div>
+                            </a>
+                            <div class="btn-wrap">
+                                <a href="javascript:;" class="btn-detail type02">자세히보기</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--//wdg_latest_61_a,b,c영역 -->
+
+
+    <!--아이콘 원형-->
+    <div class="blockgroup" >
+        <div class="group_color"style="background-color:#fff;"></div>
+        <div class="group_inner">
+        <div class="region widgetContainer inner">
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="imageblock-content widget_item wdg_banner_c type17   width1 height1 small">
+                <div class="bColor" style="background-color:#fff;"></div>
+                <div class="widget_body">
+                    <a class="thumb" href="javascript:;" target="_self">
+                        <div class="img_circle">
+                            <img src="../resources/images/img04.png" alt="">
+                        </div>
+                        <strong>T ResourceSecurity</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--//아이콘 원형-->
+
+
+    <!--wdg_latest_61_d,e,f 영역 -->
+    <div class="blockgroup" >
+        <div class="group_color" ></div>
+        <div class="group_inner">
+        <div  class="stackr-board-widget-content widget_item wdg_latest_61_6f type01 board61" >
+            <div class="widget_body widgetTitle">
+                <h2>wdg_latest_61_6f</h2>
+                <div class="region widgetContainer inner">
+                    <div class="btn-wrap">
+                        <a href="javascript:;" class="btn-detail type01">자세히보기</a>
+                    </div>
+                    <ul class="image_61">
+                        <li>
+                            <a href="javascript:;" class="con-wrap">
+                                <div class="con-img">
+                                    <img src="../resources/images/img01.jpg" alt="">
+                                </div>
+
+                                <div class="con-txt">
+                                    <span class="date">2017.09.21</span>
+                                    <strong>
+                                        정보화본부 성적우수학생 상장 수여식 정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식
+                                    </strong>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" class="con-wrap">
+                                <div class="con-img">
+                                    <img src="../resources/images/img01.jpg" alt="">
+                                </div>
+
+                                <div class="con-txt">
+                                    <span class="date">2017.09.21</span>
+                                    <strong>
+                                        정보화본부 성적우수학생 상장 수여식 정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식
+                                    </strong>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" class="con-wrap">
+                                <div class="con-img">
+                                    <img src="../resources/images/img01.jpg" alt="">
+                                </div>
+
+                                <div class="con-txt">
+                                    <span class="date">2017.09.21</span>
+                                    <strong>
+                                        정보화본부 성적우수학생 상장 수여식 정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식
+                                    </strong>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;" class="con-wrap">
+                                <div class="con-img">
+                                    <img src="../resources/images/img01.jpg" alt="">
+                                </div>
+
+                                <div class="con-txt">
+                                    <span class="date">2017.09.21</span>
+                                    <strong>
+                                        정보화본부 성적우수학생 상장 수여식 정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식정보화본부 성적우수학생 상장 수여식
+                                    </strong>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--//wdg_latest_61_d,e,f 영역 -->
+
+
+    <!--wdg_latest_61_h 영역 -->
+    <div class="blockgroup" >
+        <div class="group_color" style="background-color:rgba(255,255,255,0.9);"></div>
+        <div class="group_inner">
+        <div  class="stackr-board-widget-content widget_item wdg_latest_61_6h type01 board61" >
+            <div class="widget_body widgetTitle">
+                <h2>wdg_latest_61_6h</h2>
+                <div class="region widgetContainer inner">
+                    <div class="btn-wrap">
+                        <a href="javascript:;" class="btn-detail type01">자세히보기</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="../resources/images/img02.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <div class="middle-img">
+                                <a href="javascript:;">
+                                    <img src="../resources/images/img02.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="middle-img">
+                                <a href="javascript:;">
+                                    <img src="../resources/images/img02.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="middle-img">
+                                <a href="javascript:;">
+                                    <img src="../resources/images/img02.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="middle-img">
+                                <a href="javascript:;">
+                                    <img src="../resources/images/img02.jpg" alt="">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--//wdg_latest_61_h 영역 -->
+
+
+    <!--link-->
+    <div class="blockgroup" >
+        <div class="group_color" style="background-color:#fff;"></div>
+        <div class="group_inner">
+        <div  id="favlinkblock_1" class="content_link wdg_linkset_h" >
+            <div class="widget_body widgetTitle">
+                <div class="region widgetContainer inner">
+                    <h3>주요 링크 바로가기</h3>
+                    <ul class="link_type01">
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">IP 신청</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">도메인 신청</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">포트허용 신청</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">홈페이지 구축 플랫폼</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">웹호스팅</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">서버호스팅</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">무선인터넷 연결</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">모바일 앱 서비스</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">모바일 앱 설치</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">모바일 웹메일 설정</a>
+                        </li>
+                    </ul>
+                    <ul class="link_type02">
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">새내기 길잡이</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">FAQ/Q&A</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">정보보안뉴스</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">보안권고문</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">보안가이드</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">정보보안뉴스</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">보안권고문</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">보안가이드</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">정보보안뉴스</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">보안권고문</a>
+                        </li>
+                        <li>
+                            <span class="link_icon"></span>
+                            <a href="javascript:;">보안가이드</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!--//////link-->
+
+    <!--footer-->
+
+
+    <footer>
+        <div class="inner">
+            <h1 class="footer_logo"><a href="javascript:;"><img src="../resources/images/theme2_h1_footer_logo.png" alt=""></a></h1>
+            <ul class="footer_link">
+                <ul class="menu">
+                    <li class="first leaf d0">
+                        <dl>
+                            <dt><a href="javascript:;" title="오시는길">오시는길</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li class="leaf d0">
+                        <dl>
+                            <dt><a href="javascript:;" title="개인정보처리방침">개인정보처리방침</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li class="leaf d0">
+                        <dl>
+                            <dt><a href="javascript:;" title="이메일무단수집거부">이메일무단수집거부</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                    <li class="last leaf d0">
+                        <dl>
+                            <dt><a href="javascript:;" title="캠퍼스맵">캠퍼스맵</a></dt>
+                            <dd></dd>
+                        </dl>
+                    </li>
+                </ul>
+
+                <p>(08826) 서울특별시 관악구 관악로1 서울대학교 정보화본부 102동</p>
+                <p>전화 : <a href="tel:02-880-8282">02-880-8282</a>  | FAX : 02-887-0130 | E-mail : <a href="mailto:ercc_admin@snu.ac.kr">ercc_admin@snu.ac.kr</a></p>
+                <p>Copyright ⓒ 2018 College of Information Systems &amp; Technology Seoul National University. All rights reserved</p>
+
+            </ul>
+            <div class="directLink">
+                <ul class="ng07">
+                </ul>
+            </div>
+            <a class="btn04 " href="/board/bug_report/add">수정요청</a>
+        </div>
+    </footer>
+
+    <!--//////////footer-->
+
+</div>
+
+<!--//최상단 header, content, footer wrap-->
+
+
+<script>
+
+    $(function(){
+        ///////////////////////pc gnb
+        var $pcMenuLi = $(".pc .header_gnb .menu > li");
+        var $pcIsLast = $(".pc .header_gnb .menu li dd ul li.last a");
+        var $mobileMenuLi = $(".mobile .header_gnb .menu > li");
+        var $mobileMenuDd = $(".mobile .header_gnb .menu > li > dl > dd")
+        var animateTime = 200;
+
+        $pcMenuLi.on({
+            'mouseenter focusin' : function(){
+               $(this).find('dd').stop().show().animate({'opacity':'0','opacity':'1'},animateTime);
+            },
+            'mouseleave ' : function(){
+                $(this).find('dd').stop().animate({'opacity':'1','opacity':'0'},animateTime).hide();
+            },
+            'keydown' :function(e){
+                if(e.keyCode == 9 && e.shiftKey){
+                    $(this).find('dd').stop().animate({'opacity':'1','opacity':'0'},animateTime).hide();
+                }
+            }
+        });
+        $pcIsLast.on({
+            'focusout' : function(){
+                $(this).parents('dd').stop().animate({'opacity':'1','opacity':'0'},animateTime).hide();
+            }
+        });
+
+        ////////////////////////mobile gnb
+        $(".mobile .header_gnb .inner .mobileMenu").on('click',function(){
+            if(!$(".mobile .header_gnb").hasClass('on')){
+                $(".mobile .header_gnb").addClass('on');
+            } else{
+                $(".mobile .header_gnb").removeClass('on');
+            }
+        });
+
+        $mobileMenuLi.on({
+            'click' : function(){
+                if(!$(this).hasClass('on')){
+                    $mobileMenuDd.stop().slideUp(animateTime);
+                    $(this).addClass('on');
+                    $(this).find('dd').stop().slideDown(animateTime);
+                } else{
+                    $mobileMenuDd.stop().slideUp(animateTime);
+                    $(this).removeClass('on');
+                    $(this).find('dd').stop().slideUp(animateTime);
+                }
+            }
+        });
+
+
+
+        ///////////////////visual slider
+        $(document).ready(function(){
+            $('.bx-wrapper .slide').bxSlider({
+                mode: 'fade',
+                height: 500,
+                captions: true,
+                // responsive: true,
+                auto: true,
+                autoStart: true,
+                adaptiveHeight: true
+            });
+        });
+
+    })
+
+</script>
+
+</body>
+</html>
+

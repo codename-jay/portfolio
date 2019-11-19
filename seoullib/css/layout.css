@@ -1,0 +1,48 @@
+/*////////////header////////////*/
+
+#header{width: 100%;  background: url(../images/layout/h-layout.png) 0 0 repeat-x; }
+#header .inner1280{width: 1280px; margin: auto; position:relative; height: 145px; }
+#header h1{position:absolute; top:35px; left:50%; margin-left: -112px;}
+#header .topmenu{position:absolute; top:3px; right:5px;}
+#header .topmenu dd {float:left ; margin-left: 5px; }
+#header .topmenu dd a{font-size: 13px;color:#333}
+
+#header .s-city{width:100px;height: 30px;;position:absolute; top:3px; left:5;font-size: 13px;text-indent: 15px;background: url(../images/layout/seoul-logo.png) 0 0 no-repeat;color:#333}
+#header .sns{position:absolute; right:25px; top:60px}
+#header .sns li{float:left; margin-left: 5px;}
+#header .sns li a{}
+
+#nav{position: absolute; bottom:0px; left: 0; }
+#gnb{position:relative}
+#gnb>li{float:left;}
+#gnb li:nth-child(1){margin-left:0px;}
+#gnb>li>a{display: block; font-size: 18px; color:#f5f5f5; text-align: center;width: 182px;height: 40px;line-height: 40px;}
+#gnb li ul{z-index:100;position:absolute; top:40px;background:#fff; width: 182px;display: none;border: 1px solid #dcdcdc;}
+#gnb li ul li{ height: 30px;}
+#gnb li ul li a{color:#333; display: block;line-height: 30px;border-bottom: 1px dotted #dcdcdc;text-align: center;font-size: 14px;}
+#gnb li ul li.on a{ color:#0093cf; backgr ound:url(../images/layout/pointer.png) 0 50% no-repeat; border-bottom: 1px solid #dcdcdc; }
+
+
+/*////////////footer////////////*/
+
+#footer{width: 100%;background: #dcdcdc}
+#footer .inner1280{width: 1280px; height: 120px;margin: auto; position: relative;padding: 10px 20px 0 20px;}
+#footer h2{position: absolute; right:110px; top:30px; width: 100px;}
+#footer .qr{background: url(../images/layout/qr.png) 0 0 no-repeat; background-size:cover;width: 60px;height:60px;
+					position: absolute; right:60px; top:30px;}
+#footer .footer-nav{padding-top: 10px; width: 700px; height: 30px; margin-left: 20px;}
+#footer .footer-nav dd{float:left; margin-right: 5px;}
+#footer .footer-nav dd a{font-size: 13px; color:#333}
+
+#footer address{font-size: 12px; margin-left: 20px;}
+#footer span{display: block;font-size: 12px;color:#333; margin-left: 20px;}
+#footer em{display: block;font-size: 12px;color:#333; margin-left: 20px;}
+#footer fieldset{position:absolute; top: 20px; left:450px;display: block;}
+#footer .seoul-city1{width: 180px;height: 25px;border: 1px solid #333;background: none;}
+#footer .seoul-city2{height: 25px; width: 40px;background: #333;border:0; color:#fff }
+
+
+
+
+
+

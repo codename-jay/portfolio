@@ -1,0 +1,5 @@
+#subTop{width: 100%; height: 60px; background: url(../images/sublayout/subtop-bg.png) 50% 50% no-repeat;background-size:cover ; position:relative;}
+#subTop .prev{display: block; width: 10%;height: 40px; font-size: 25px;float:left; position:absolute;
+				font-family: 'nanumB';left:5%; top:50% ; margin-top: -20px;color:#fff}
+#subTop h2{font-size: 20px; text-align: center;float:left;width: 100%; line-height: 60px;height: 60px; color:#fff;}
+

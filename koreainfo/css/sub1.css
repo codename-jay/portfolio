@@ -1,0 +1,42 @@
+.sub1-news{}
+.sub1-news form{}
+.sub1-news p{width: 94%; margin-left: 3%; height: 60px;line-height: 60px;text-align: right;border-bottom: 1px solid #dcdcdc;}
+#search-submit{border: 0; background: #140958; color:#fff; width: 60px; height: 20px;}
+.sub1-news .news{width: 94%; margin-left: 3%;margin-top: 20px;}
+.sub1-news .news li{width: 100%; height: 110px;border-bottom: 1px dotted #cdcdcd;padding: 20px 0;}
+.sub1-news .news li a{display: block;color:#333;
+					background-image: url(../images/sub/mouse.png);background-position: 98% 0%; background-repeat:no-repeat;background-size: 5%;}
+.sub1-news .news li:hover a{background-image: url(../images/sub/mouse-on.png)}
+.sub1-news .news li a strong{display: block;font-size: 20px;width: 80%;
+							 -webkit-line-clamp: 1;  
+							  line-clamp: 1;    
+							  display: -webkit-box;
+							  -webkit-box-orient: vertical;
+							  overflow:hidden}
+.sub1-news .news li:hover a strong{color:#c94549}							  
+.sub1-news .news li a em{display: block;font-size: 15px;width: 85%;margin: 5px 0;
+						-webkit-line-clamp: 2;  
+						line-clamp: 2;    
+						display: -webkit-box;
+						-webkit-box-orient: vertical;
+						overflow:hidden}
+.sub1-news .news li a span{display: block;font-size: 13px;color:gray}
+.sub1-news .news-paging{width: 250px; height: 40px;margin: 60px auto;}
+.sub1-news .news-paging li{float:left; margin-right: 10px; }
+.sub1-news .news-paging li:last-child{margin-right: 0;}
+.sub1-news .news-paging li a{display: block;width: 25px; height: 25px;color:#140958;text-align: center;line-height: 25px;border: 1px solid #140958;}
+.sub1-news .news-paging li.on a{background: #140958; color:#fff;}
+
+@media screen and (max-width: 1200px){
+.sub1-news .news li a,.sub1-news .news li:hover a{background-size: 8%;background-position: 100% 0%; }
+}
+
+@media screen and (max-width: 800px){
+.sub1-news p{text-align: center;}
+}
+
+@media screen and (max-width: 400px){
+.sub1-news .news li a,.sub1-news .news li:hover a{background-size: 13%;background-position: 100% 0%; }
+}
+
+

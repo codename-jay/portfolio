@@ -1,0 +1,31 @@
+
+#header{position:relative;box-sizing:border-box;width: 100%; height: 60px; border-bottom: 1px solid #dcdcdc;}
+#header h1{position:absolute;left:10px}
+#header h1 a{display: block;width: 180px; height: 50px;background: url(../images/logo.png) 50% 70% no-repeat;
+						background-size:100%;}
+
+#nav{float:right; width: 16%; height: 60px; background: url(../images/menu.png) 0 0 no-repeat;
+		background-size:cover;}
+.nav-bg{display: none; width: 100%; height: 100%; background:rgba(0,0,0,0.6) ; position:fixed; left:0 ; top:0; z-index: 80}
+.close{display: none; position:absolute; right:0; top:0; font-size: 30px;width:40px; height:40px;z-index: 150; text-align: center;}
+#gnb{display: none; width:250px;height: 400px;; background: rgba(255,255,255,0.9); position:relative; z-index: 100;left:-190px; top:0}
+#gnb>li:first-child{padding-top: 25px;}
+#gnb>li>a{display: block; width: 109px; height: 50px; color:#f39900;text-align: center; line-height:50px;font-size: 17px; border-right: 1px dotted #dcdcdc;box-sizing:border-box}
+#gnb li.on>a{border-bottom: 3px solid #f39900;}
+#gnb li ul{width: 140px;position:absolute; right:0 ; top:30px; display: none;}
+#gnb li:first-child ul{display: block;}
+#gnb li ul li{}
+#gnb li ul li a{display: block; padding: 7px 7px 7px 15px;}
+
+#container{height: 100%;}
+#container:after{content:''; display: block; clear: both;}
+#contents{width: 100%;}
+
+#footer{background: #dcdcdc;width: 100%; height:235px;}
+.group-brand{background:gray;width: 100%; height: 40px;box-sizing:border-box;position:relative }
+.group-brand a.top{width: 12%; height: 40px; display: block; background:url(../images/top.png) 0 0 no-repeat ;position:absolute;
+									right:0;top:0;background-size: cover; }
+#group{width: 33%;color: #fff;font-size: 13px;border: none; border-radius:0;margin: 13px 0 13px 7px; background: gray; }
+#brand{width: 45%;color: #fff;font-size: 13px;border: none; border-radius:0;margin: 13px 0 13px 0; background: gray;} 
+#footer address{margin: 20px;text-align: center;font-size: 12px;}
+#footer .pc-version{margin: auto;font-size: 13px; display: block; width: 140px; height: 40px;background: #333; color: #fff; text-align: center; line-height: 40px; margin-bottom: 20px;}

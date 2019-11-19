@@ -1,0 +1,149 @@
+/*body{background: #f1f1f1;;}*/
+#header,#visual,#personal,#skill,#works,#contact,#footer{width: 100%;}
+.inner-wrap{width:100%; max-width: 1280px; margin: auto; position:relative;}
+
+#header{background: #f1f1f1;position:fixed;z-index: 100; box-shadow:1px 1px 20px #cdcdcd}
+#header .inner-wrap{height: 80px;padding-top: 10px;box-sizing: border-box;}
+#header h1 {float:left; background: url(../images/gna.png) 50% 50% no-repeat; background-size:cover;width: 150px; height: 60px;}
+#header .all-menu{position:absolute; bottom: -60px ; right:0; display: block; width: 50px; height: 50px; background-image:url(../images/gnb-.png);background-position:50% 50%; background-repeat: no-repeat; background-color:#ecb200; background-size:cover;}
+#header .wl{display: block; color:#ecb200; font-size: 14px; position:absolute; bottom: -45px ; right:50px; width: 85px; height: 20px;  }
+#gnb{float:right;}
+#gnb li{float:left; margin-right:50px; height: 80px; }
+#gnb li a{display: block;font-size: 20px;line-height: 80px;color: #333}
+#gnb li:hover a{color:#ecb200}
+
+#visual{padding-top: 80px;background: url(../images/bg1.jpg)  50% 50% no-repeat; background-size: cover;}
+#visual .inner-wrap{height: 550px;}
+#visual h2{height: 60px;;text-align: center;display: block;font-size: 50px; color:#fff;padding-top: 220px;}
+#visual strong{text-align: center;display: block;font-size: 30px;color:#fff}
+#visual span{margin-top: 30px;display: block;color:#dcdcdc; text-align: center;font-size: 13px;}
+#visual em{width: 200px; height: 200px; display: block; background: url(../images/jinah1.png) 50% 50% no-repeat #fff; background-size:cover; border-radius: 50%;
+	    position:absolute; left:50%;margin-left: -100px; bottom:-100px;border: 5px solid #ecb200; overflow:hidden}
+
+
+#container{height: 100%; }
+#container:after{content:''; display: block; clear: both;}
+#personal{margin-top: 120px;}
+#personal h3{text-align: center; font-size: 20px;margin-bottom: 20px;}
+#personal p{text-align: center; width: 800px;margin: auto;font-size: 17px;}
+#personal .jinah{font-size: 13px; width: 1200px; border: 1px solid #cdcdcd; padding:20px; margin-top: 20px;}
+#personal .p-detail{margin-top: 30px;}
+#personal .p-detail li{float:left;width:33.333%;height: auto; padding-bottom:30px; box-sizing: border-box;text-align: center; }
+#personal .p-detail li:nth-child(2){border-left: 1px solid #cdcdcd; border-right: 1px solid #cdcdcd;}
+#personal .p-detail li strong{display: block; font-size: 20px; padding-bottom: 10px; color:#ecb200; font-weight: bold; border-bottom: 1px solid #ecb200;width:80%; max-width: 200px; margin:10px auto;}
+#personal .p-detail li span{display: block;font-size: 14px;line-height: 1.5; margin-bottom: 10px;}
+
+#skill{background: #333;margin-top: 30px;}
+#skill .inner-wrap{height: 260px;}
+#skill h3{font-size: 20px; text-align: center;color:#fff; padding: 10px 0;}
+#skill .skills1{}
+#skill .skills1 li{float:left; width: 640px; height: 100px;color:#fff; }
+#skill .skills1 li strong{font-size: 15px; color:#fff ; text-align: center;display: block;}
+#skill .skills1 li ul{width: 502px; height: 40px; margin:10px auto;box-sizing:border-box; border: 1px solid #f1f1f1;}
+#skill .skills1 li ul li{color:#fff; float:left; width: 20px; height: 30px; box-sizing:border-box; margin-right: 5px;margin-top: 5px;}
+#skill .skills1 li ul li:first-child{margin-left: 2.5px;}
+#skill .skills1 li ul li:last-child{margin-right: 0;}
+#skill .skills1 li ul li.yes{background: #ecb200;}
+#skill .skills1 li ul li.no{ border: 1px solid #ecb200;}
+
+#works{background: #fff;}
+.works > .title{ margin-top:60px; text-align: center; font-weight: bold; font-size:18px; color:#1E2973;}
+#works .inner-wrap{}
+#works .group{padding: 60px 0; display:table; width:100%; }
+#works .group li{display: table-cell;}
+#works .group li a{border-top: 1px solid #ecb200;border-bottom: 1px solid #ecb200; border-right: 1px solid #ecb200;display: block; box-sizing:border-box; text-align: center; height: 50px; line-height: 50px;font-size: 15px; color:#333}
+#works .group li:first-child a{border-left: 1px solid #ecb200;}
+#works .group li.on a{ background: #ecb200; color:#fff;}
+#works .group li:first-child a{border-radius:10px 0 0 10px}
+/*#works .group li:nth-child(2) a{color:#616094; border:1px solid #616094;}*/
+/*#works .group li:nth-child(2).on a{background-color:#616094; color:#fff; }*/
+#works .group li:last-child a{border-radius: 0 10px  10px 0}
+
+#works .work .all.real-project {height: 350px; padding-bottom:30px; }
+#works .work .all.real-project .float{padding-top:50px; text-align: center;}
+#works .work .all.real-project .float strong{float: inherit; display: inline-block;  width:50%;}
+#works .work .all.real-project .float strong a{background-color:#0b095c; color:#fff;}
+#works .work .all.real-project .top-group{border-color:#0b095c; color:#0b095c;}
+#works .work .all{position:relative;float:left; box-sizing:border-box; width: 612px; height: 600px; margin: 0px 0px 10px 20px; background: #f6f1e4;}
+#works .work .all.real-project:nth-child(n+3){height: 350px;}
+#works .work .all .work-img{width: 100%; height: 350px; background: #dcdcdc;}
+#works .work .all .top-group{color:#0b095c;position:absolute; left:10px; top:10px;border: 1px solid #0b095c; border-radius: 10px; display: block; width: 150px; height: 30px;text-align: center; line-height: 30px;}
+#works .work .all h3{position:absolute; left:50%; top:10px; margin-left: -200px;font-size: 20px; width: 400px; text-align: center; height: 30px;line-height: 30px;color:#0b095c}
+#works .work .all em{display: block; color:#0b095c; font-size: 17px; text-align: center;height: 50px; line-height: 50px;}
+#works .work .all .normal{display: block;font-size: 15px; text-align: center; line-height:1.5; padding-top:10px; width: 100%;}
+#works .work .all .concept{display: block;margin-top: 10px;}
+#works .work .all .concept a{display: block;text-align: center; font-size: 15px; height: 30px; line-height: 30px; background:#16bc98 ; color:#fff; margin: auto;}
+#works .work .all strong{display: block;margin-top: 10px;}
+#works .work .all strong a{transition:0.3s;display: block;text-align: center; font-size: 20px; height: 60px; line-height: 60px; background:#ec9000 ; color:#fff; margin: auto;box-sizing:border-box}
+#works .work .all strong:hover a{background: #0b095c; color:#fff}
+#works .work .all>strong>a{width: 100%;}
+#works .work .all ul{width: 100%;background: #fff;box-sizing:border-box; border: 1px solid #f4d880;}
+#works .work .all .float strong{float:left;width: 32%; }
+#works .work .all .float strong:nth-of-type(2){margin-left:2%; margin-right:2%;}
+#works .work .all ul li{float:left; width:25%;}
+#works .work .all ul li a{box-sizing:border-box;display: block;text-align: center; width:100%; height: 25px;color:#666; line-height: 25px;}
+#works .work .all ul li:hover a{color:#0b095c}
+#works .work .all.wimg02 ul:nth-of-type(2), #works .work .all.wimg03 ul:nth-of-type(1){padding-left: 120px;}
+#works .work .all .work-img{transition:0.5s;background-position:50% 50%; background-repeat: no-repeat; background-color:#fff; background-size: 100%;}
+#works .work .all.wimg01, #works .work .all.wimg02{ height: 750px;;}
+#works .work .all.wimg01 .work-img{background-image: url(../images/monitor-seoullib-off.png) }
+#works .work .all.wimg01:hover .work-img{background-image: url(../images/monitor-seoullib.png) }
+#works .work .all.wimg02 .work-img{background-image: url(../images/monitor-daewoong-off.png) }
+#works .work .all.wimg02:hover .work-img{background-image: url(../images/monitor-daewoong.png) }
+#works .work .all.wimg03 .work-img{background-image: url(../images/monitor-korea-off.png) }
+#works .work .all.wimg03:hover .work-img{background-image: url(../images/monitor-korea.png) }
+#works .work .all.wimg04 .work-img{background-image: url(../images/monitor-hawaii-off.png)}
+#works .work .all.wimg04:hover .work-img{background-image: url(../images/monitor-hawaii.png)}
+#works .work .all.wimg05 .work-img{background-image: url(../images/monitor-toryburch-off.png)}
+#works .work .all.wimg05:hover .work-img{background-image: url(../images/monitor-toryburch.png)}
+#works .work .all.wimg06 .work-img{background-image: url(../images/monitor-delmonte-off.png) }
+#works .work .all.wimg06:hover .work-img{background-image: url(../images/monitor-delmonte.png) }
+#works .work .all.wimg07 .work-img{background-image: url(../images/monitor-ait-off.png) }
+#works .work .all.wimg07:hover .work-img{background-image: url(../images/monitor-ait.png) }
+#works .work .all.wimg08 .work-img{background-image: url(../images/monitor-artwork-off.png)}
+#works .work .all.wimg08:hover .work-img{background-image: url(../images/monitor-artwork.png)}
+
+#contact{background: #fff;padding-top: 70px;}
+#contact .inner-wrap{ border-top: 1px solid #666; border-bottom: 1px solid #666; height: 330px;}
+#contact strong{display: block; text-align: center;font-size: 30px;  padding-top: 65px; padding-bottom: 10px;font-weight: bold;color:#ecb200;}
+#contact ul{}
+#contact ul li{width: 100%; font-size: 30px;text-align: center; margin-bottom: 5px;}
+#contact ul li:first-child{font-size: 20px; padding: 20px 0;}
+#footer{background: #fff;height: 50px; font-size: 15px; text-align: center; padding-top: 20px;}
+
+.table-type{width:80%;margin:50px auto; border: 1px solid #ebeeff}
+
+.table-type thead th {padding:10px;font-size:13px;color: #fff;line-height: 1.4;background-color: #303a73;}
+.table-type tbody th {	background-color: #f8f6ff; border-bottom:1px solid #fff;}
+.table-type tbody td { border-bottom:1px solid #ebeeff;}
+.table-type tbody th, .table-type tbody td {padding:5px 10px; font-size: 12px; line-height: 1.4; color: #222;  vertical-align: middle; text-align:left;}
+.table-type tbody .ta-center {text-align: center;}
+.table-type tr {border-bottom:1px solid #ebeeff;}
+.table-type a{display:inline-block;  width:auto; padding:2px 5px; border:1px solid #303a73; border-radius: 5px; font-size: 11px; color:#303a73;}
+.table-type a:hover{background-color:#ebeeff;}
+.table-type .btn-list li{margin-bottom:4px;}
+.table-type .btn-list li:last-child{margin-bottom:0;}
+.table-type tbody td:last-of-type{font-size: 11px;}
+.works .btn-project02{display:block; width:300px; margin:0 auto 50px; padding:10px; background-color: #303a73; color:#fff; border-radius: 5px; font-size: 16px; text-align: center; }
+.works .btn-project02:hover{background-color:#1E2973;}
+.works .imp-txt{color:#1E2973; font-weight: bold;}
+
+@media ( max-width: 1280px ) {
+	#works .work .all{margin-left:1%; margin-right:1%; width:48%; }
+	#works .work .all .top-group{display:none;}
+}
+
+@media ( max-width: 720px ) {
+	.table-type{width:100%; box-sizing: border-box}
+}
+
+
+
+
+
+
+
+
+
+
+

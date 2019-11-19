@@ -1,0 +1,26 @@
+#sub-visual{width: 100%; height: 170px; 
+					background-repeat:no-repeat;background-size: cover;
+					/*background-image:url(../images/sub/sub-bg1.png);
+					 background-repeat:no-repeat;background-size: cover;*/}
+					 
+.sub-inner-wrap{height: 170px; width: 1180px; margin: auto;position:relative}
+.sub-inner-wrap h2{position:absolute; left: 260px; bottom:15px; font-size: 25px; font-family: 'nanumB';}
+
+#sub-contents{width: 1180px; }
+.aside-bar{width: 210px; float: left;position:relative;}
+.aside-bar h3{font-size: 30px; font-family: 'nanumB'; color:#fff; line-height: 150px;text-align: center;
+						width: 210px;height: 150px; background: #e98e00;position: absolute; left:0; top:-80px}
+						
+.side-menu{width: 210px; padding: 80px 20px 0 20px;box-sizing:border-box }
+.side-menu > li{padding: 8px; border-bottom: 1px solid #dcdcdc;}
+.side-menu li:last-child{border:none}
+.side-menu li.on > a{font-size: 16px;font-family: 'nanumB'; color: #e98e00}
+.side-menu li a{font-size: 14px; text-indent: 20px;display: block;text-a lign: center;}
+.side-menu li ul {padding-top: 5px; di splay: none;} 
+.side-menu li ul li a{font-size: 12px; color: gray}
+
+.sub-conbody{width: 940px;float:right; position:relative; padding-top: 65px; box-sizing:border-box; }
+.sub-conbody .path{position:absolute; right:0; top:10px}
+.sub-conbody .path li{float: left; padding-left: 5px;}
+.sub-conbody .path li a{font-size: 12px;}
+.sub-conbody .path li a span{font-family: 'nanumB';}

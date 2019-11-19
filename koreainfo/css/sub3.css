@@ -1,0 +1,54 @@
+
+.sub3-relationsite .sub3-wrap{width: 94%; margin-left: 3%;}
+
+.sub3-relationsite form{background: #f1f1f1;border: 1px solid #dcdcdc;margin-top: 30px;}
+.sub3-relationsite p{width: 100%;text-align: center;height: 50px;line-height: 50px;}
+.sub3-relationsite .select-box{width: 100%;height: 40px;}
+.sub3-relationsite .select-box li{float:left;width: 16.666%; text-align: center;line-height: 40px;height: 40px;}
+#site-submit{border: 0; height: 30px;background: #140958; color:#fff; width: 60px; }
+#site-text{width: 40%;height: 30px;padding: 0;box-sizing:border-box}
+#site-option{width: 15%; height: 30px;}
+.sub3-relationsite dl{width: 100%;position:relative; top:30px; height: 700px;}
+.sub3-relationsite dl dt{cursor:pointer;width: 14.285%;float:left; text-align: center;box-sizing:border-box; border-right: 1px solid #140958;height: 30px; line-height: 30px;border-bottom: 1px solid #140958;border-top: 1px solid #140958;}
+.sub3-relationsite dl dt.on{background: #140958; color:#fff}
+.sub3-relationsite dl dt:nth-child(1){border-left: 1px solid #140958;}
+.sub3-relationsite dl dd{position:absolute; left:0; top:80px; background: #fff;width: 100%;display: none;}
+.sub3-relationsite dl dd:nth-of-type(1){display: block;}
+.sub3-relationsite dl dd .site-box{width: 80%;margin: auto;}
+.sub3-relationsite dl dd .site-box li{width: 32%; margin-right: 2%;float:left; margin-bottom: 20px;border: 1px solid #dcdcdc;box-sizing:border-box;
+															padding: 10px;height: 150px;}
+.sub3-relationsite dl dd .site-box li:nth-child(3n+3){margin-right: 0;}
+.sub3-relationsite dl dd .site-box li strong{font-size: 16px;display: block; margin-bottom: 8px;background:#f1f1f1 ;color:#140958; height: 25px;line-height: 25px;}
+.sub3-relationsite dl dd .site-box li em{font-size: 14px;display: block;}
+.sub3-relationsite dl dd .site-box li em a{color:red;}
+
+.sub3-relationsite dl dd .link-box{width: 80%; margin:20px auto;background: #322e4c; padding: 20px;box-sizing:border-box; }
+.sub3-relationsite dl dd .link-box li{}
+.sub3-relationsite dl dd .link-box li a{color:#fff}
+
+@media screen and (max-width: 1200px){
+.sub3-relationsite dl dd .site-box{width: 100%;}
+.sub3-relationsite dl dd .link-box{width: 100%;}
+}
+
+@media screen and (max-width: 800px){
+.sub3-relationsite dl dt{width: 25%;}
+.sub3-relationsite dl dt:nth-of-type(5){border-left: 1px solid #140958;}
+.sub3-relationsite dl dt:nth-of-type(n+5){ border-top: none;}
+#site-option{width: 20%;}
+}
+
+@media screen and (max-width: 400px){
+.sub3-relationsite dl{height:1050px}
+.sub3-relationsite dl dt{width: 50%;}
+.sub3-relationsite dl dd{top:180px}
+.sub3-relationsite dl dt:nth-of-type(1),.sub3-relationsite dl dt:nth-of-type(2){border-bottom: none;}
+.sub3-relationsite dl dt:nth-of-type(3),.sub3-relationsite dl dt:nth-of-type(7){border-left: 1px solid #140958;}
+.sub3-relationsite dl dd .site-box li{width: 49%;margin-right: 0;}
+.sub3-relationsite dl dd .site-box li:nth-child(2n+1){margin-right: 2%;}
+.sub3-relationsite  form{height: 120px;}
+.sub3-relationsite .select-box li{width: 33.333%;line-height: 25px;height: 25px;}
+#site-option{width: 25%;}
+}
+
+
